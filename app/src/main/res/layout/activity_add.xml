@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/firstnameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="firstname"
+        android:minHeight="48dp">
+    </EditText>
+
+    <EditText
+        android:id="@+id/lastnameET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="lastname"
+        android:minHeight="48dp">
+    </EditText>
+
+    <Button
+        android:id="@+id/insertButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Student" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/mainButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/purple_200"
+        android:contentDescription="+">
+    </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+
+</LinearLayout>

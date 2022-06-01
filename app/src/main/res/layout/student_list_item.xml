@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:id="@+id/studentCard">
+
+    <TextView
+        android:id="@+id/firstnameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="firstName"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   "
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:ignore="SpeakableTextPresentCheck"></TextView>
+
+    <TextView
+        android:id="@+id/lastnameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="lastName"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   "
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:ignore="SpeakableTextPresentCheck"></TextView>
+
+    <TextView
+        android:id="@+id/idTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ID"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"></TextView>
+
+</LinearLayout>
